@@ -1,20 +1,21 @@
-# Hospital Costs / Medical Claims Analysis
+# Healthcare Fraud Detection Analysis
 
 ## Objective
-Exploratory data analysis of hospital encounter data to identify patterns
-in costs, length of stay, and factors associated with spending, applying
-prior experience as a claims analyst in insurance.
+Exploratory data analysis of healthcare insurance claims to identify
+patterns associated with fraudulent claims, applying prior experience
+as a claims analyst in insurance.
 
 ## Dataset
-Medical Claims, source: Kaggle ([link](https://www.kaggle.com/datasets/mohammedalsubaie/medical-claims))
+Healthcare Fraud Detection Dataset, source: Kaggle ([link](https://www.kaggle.com/datasets/esseasd/healthcare-fraud-detection-dataset))
 
 ## Business Questions
-1. Where is billing_amount concentrated?
-2. Does admission type affect the billed amount?
-3. Does length of stay correlate with billing amount?
-4. How does spending evolve over time?
-5. Which insurance providers/hospitals show the highest or most variable billing amounts?
-6. Are there medical conditions with unusually high costs worth reviewing?
+1. Where is fraud concentrated? (by specialty, insurance type, state, visit type)
+2. How does Claim_Amount differ from Approved_Amount? Are there patterns in reductions/rejections?
+3. Does Days_Between_Service_and_Claim differ between fraudulent and non-fraudulent claims?
+4. Do providers with high monthly claim volume show more fraud?
+5. Are Chronic_Condition_Flag or Prior_Visits_12m related to larger claims or fraud?
+6. How does fraud evolve over time?
+7. Final recommendation: top red flags the analysis team should monitor.
 
 ## Stack
 - SQL (DuckDB)
