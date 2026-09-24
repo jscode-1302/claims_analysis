@@ -33,10 +33,10 @@ Fraud has remained consistent from 2021 to 2024, ranging between 8.52% and 9.08%
 
 ## Recommendations
 
-1. Rigorous check on those providers with high claim volume per month.
-2. Strict approval process has to be implemented for claims with high amount.
-3. Extra revision for claims submitted under 5 days could further reduce the fraud rate.
-4. Automatic review for claims where the approved amount is disproportionately lower than the claimed amount.
+1. Rigorous checks on those providers with high claim volumes per month.
+2. A strict approval process should be implemented for claims with high amounts.
+3. Extra review of claims submitted within 5 days could further reduce the fraud rate.
+4. Automated review of claims where the approved amount is disproportionately lower than the claimed amount.
 
 ## Stack
 - SQL (DuckDB)
