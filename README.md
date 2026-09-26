@@ -38,6 +38,23 @@ Fraud has remained consistent from 2021 to 2024, ranging between 8.52% and 9.08%
 3. Extra review of claims submitted within 5 days could further reduce the fraud rate.
 4. Automated review of claims where the approved amount is disproportionately lower than the claimed amount.
 
+## Power BI Dashboard
+
+To turn these findings into something interactive and business-facing, I built a
+2-page Power BI dashboard on top of the same dataset, directly reflecting the
+4 recommendations above.
+
+![Dashboard overview](images/dashboard_1.png)
+![Fraud detail breakdown](images/dashboard_2.png)
+
+- **Page 1 (Overview):** KPIs, a nested-quantile matrix (claim amount × monthly
+  claim volume), and the key comparisons behind each recommendation.
+- **Page 2 (Fraud Detail):** drill-down by provider specialty and insurance type
+  within the highest-risk claim segment.
+
+📥 [Download the .pbix file](power-bi/Claims%20Fraud%20Dashboard.pbix) to explore it interactively in Power BI Desktop.
+📄 [View as PDF](power-bi/claims_fraud_dashboard.pdf)
+
 ## Stack
 - SQL (DuckDB)
 - Pandas
