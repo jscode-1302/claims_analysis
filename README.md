@@ -52,8 +52,8 @@ To turn these findings into something interactive and business-facing, I built a
 - **Page 2 (Fraud Detail):** drill-down by provider specialty and insurance type
   within the highest-risk claim segment.
 
-📥 [Download the .pbix file](power-bi/Claims%20Fraud%20Dashboard.pbix) to explore it interactively in Power BI Desktop.
-📄 [View as PDF](power-bi/claims_fraud_dashboard.pdf)
+[Download the .pbix file](power-bi/Claims%20Fraud%20Dashboard.pbix) to explore it interactively in Power BI Desktop.
+[View as PDF](power-bi/claims_fraud_dashboard.pdf)
 
 ## Stack
 - SQL (DuckDB)
