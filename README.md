@@ -11,6 +11,7 @@ Healthcare Fraud Detection Dataset, source: Kaggle ([link](https://www.kaggle.co
 ## Business Questions
 1. Where is fraud concentrated? (by specialty, insurance type, state, visit type)
 2. How does Claim_Amount differ from Approved_Amount? Are there patterns in reductions/rejections?
+  2.1. Is the claim amount more variable/unpredictable for fraudulent claims than for non-fraudulent ones?
 3. Does Days_Between_Service_and_Claim differ between fraudulent and non-fraudulent claims?
 4. Do providers with high monthly claim volume show more fraud?
 5. Are Chronic_Condition_Flag or Prior_Visits_12m related to larger claims or fraud?
