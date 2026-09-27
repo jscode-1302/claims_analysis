@@ -27,7 +27,7 @@ Claim amount is the strongest fraud indicator, and this risk compounds when comb
 
 **Fraudulent claims are approved at a much lower rate.** Even when a claim ends up Approved, fraudulent ones recognize only 62.62% of the claimed amount on average, compared to 87.24% for non-fraudulent claims — suggesting the approval system is already partially flagging risk through the amount it recognizes.
 
-![Fraud rate evolution 2021-2024 and proportional difference](images/timeline.png)
+![Fraud rate evolution 2021-2024 and proportional difference](images/timeline_and_diff.png)
 
 Fraud has remained consistent from 2021 to 2024, ranging between 8.52% and 9.08%. 2023 was the year with the most fraudulent claims, 416, which represented a 9.08% fraud rate that year.
 
